@@ -1,0 +1,232 @@
+/* 	Tag Selector Section......................................*/
+
+body {
+  background-color: #cfd3d2;
+  background-size: 100% 100%;
+}
+h1 {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+h2 {
+  color: #a4020f;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+ul li a {
+  color: #a4020f;
+}
+
+ol li {
+  margin-bottom: 25px;
+}
+
+ol li:first-child {
+  margin-bottom: 15px;
+}
+
+legend {
+  font-size: 1em;
+}
+
+select {
+  width: 250px;
+  font-size: 0.75em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+table {
+  width: 50%;
+  font-size: smaller;
+}
+
+th {
+  text-align: center;
+  font-weight: 400;
+}
+
+/*	Class Selector Section...................................*/
+
+.container-fluid {
+  color: #000000;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  width: 90%;
+}
+
+.col-sm-12 {
+  background-color: #d9a93d;
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+.navbar navbar-expand-md {
+  background-color: #d9a93d;
+}
+
+.subhead {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.col-md-4 {
+  background-color: #bdbebe;
+  margin: 30px 0px;
+  padding: 30px 20px;
+}
+
+.col-md-4 h2 {
+  text-align: center;
+}
+
+.col-md-5 {
+  background-color: #bdbebe;
+  margin: 30px 0px;
+  padding: 30px 20px;
+}
+
+.col-md-5 h2 {
+  text-align: center;
+}
+
+.col-md-7 {
+  background-color: #bdbebe;
+  margin: 30px 0px;
+  padding: 30px 20px;
+}
+
+.col-md-7 h2 {
+  text-align: center;
+}
+
+.socialpen {
+  background-color: #bdbebe;
+  margin: 0px 0px;
+  padding: 0px 20px;
+}
+
+.socialpen h2 {
+  text-align: center;
+}
+
+.dropdown-menu {
+  padding: 0;
+  margin-top: 0;
+  width: 175px;
+}
+
+.nav-item {
+  color: #a4020f;
+  font-size: 17px;
+}
+
+.nav-item.active .nav-link {
+  font-weight: 800;
+}
+
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: #a4020f;
+}
+
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #f0f2f0;
+  margin-bottom: 5px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline-style: none;
+}
+
+.herocontainer {
+  background-image: url("../images/pexels-yangjunjun-7927181.jpg");
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center 15%;
+}
+
+.concept {
+  background-image: url("../images/pexels-andre-mouton-1207875.jpg") !important;
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.disclosure {
+  background-image: url("../images/pexels-min-an-654692.jpg") !important;
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.model {
+  background-image: url("../images/pexels-kindel-media-7149165.jpg") !important;
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: center 25%;
+}
+
+/*	ID Selector Section......................................*/
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #f0f2f0;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu .dropdown-item:hover {
+    color: #f0f2f0;
+    background-color: #010101;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+.navbar .nav-item:hover .nav-divider {
+  color: #a4020f;
+}
+@media screen and (max-width: 775px) {
+  .socialpen {
+    margin: 30px 0px;
+    padding: 30px 20px;
+  }
+  .nav-divider {
+    display: none;
+  }
+
+  a:hover {
+    color: #f0f2f0;
+  }
+  table {
+    width: 100%;
+  }
+}
